@@ -1,2 +1,2 @@
 .terraform/
-*.lock.hd
+*.lock.hcl
