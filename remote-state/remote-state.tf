@@ -5,7 +5,7 @@ provider "aws" {
 terraform {
     backend "s3" {
         bucket  = "raacharg-tfstate"
-        key     = "dev/network/terraform.tfstate"
+        key     = "dev/remote-state/terraform.tfstate"
         region  = "eu-central-1"
     }
 }
